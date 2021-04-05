@@ -1,0 +1,26 @@
+.nav {
+  background: var(--color-salmon);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 30px;
+}
+
+.nav__logo {
+  width: 40px;
+}
+
+.nav__links li {
+  margin-bottom: 40px;
+}
+
+.nav__links li svg {
+  stroke: white;
+  width: 30px;
+}
+
+.nav__settings {
+
+}

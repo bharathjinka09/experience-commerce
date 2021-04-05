@@ -1,0 +1,19 @@
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user__name {
+  margin-right: 10px;
+  color: var(--color-light-black);
+  font-size: 14px;
+}
+
+.user__name--bold {
+  font-weight: 600;
+}
+
+.user__image {
+  border-radius: 100%;
+  width: 40px;
+}

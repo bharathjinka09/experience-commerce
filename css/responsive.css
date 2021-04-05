@@ -1,0 +1,99 @@
+@media (max-width: 1921px) {
+  .container {
+    grid-template-columns: 10% 65% 25%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container {
+    grid-template-columns: 12% 60% 28%;
+  }
+
+  .experience-list {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .hotels__list {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .search {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    grid-template-columns: 15% 85% 0%;
+  }
+
+  .order-summary {
+    display: none;
+  }
+
+  .experience-list {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .hotels__list {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .search {
+    width: 60%;
+  }
+}
+
+@media (max-width: 820px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    display: none;
+  }
+
+  .main {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .order-summary {
+    display: none;
+  }
+
+  .experience-list {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .hotels__list {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .search {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+
+@media (max-width: 460px) {
+  .experience-list {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+
+}
+

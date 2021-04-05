@@ -1,0 +1,14 @@
+@import './variables/variables.css';
+
+@import './components/nav.css';
+@import './components/main.css';
+@import './components/container.css';
+@import './components/order-summary.css';
+@import './components/experience.css';
+@import './components/search.css';
+@import './components/menu.css';
+@import './components/user.css';
+@import './components/hotel.css';
+@import './components/button.css';
+
+@import './responsive.css'

@@ -1,0 +1,30 @@
+.search {
+  position: relative;
+  width: 40%;
+}
+
+.search__icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  color: var(--color-light-black);  
+}
+
+.search__input {
+  padding: 15px 15px 15px 40px;
+  background: white;
+  border-radius: 8px;
+  border: transparent;
+  width: 100%;
+}
+
+.search__input:focus {
+  outline: none;
+  box-shadow: 0px 0px 1px 1px hsl(11deg 52% 60% / 81%);
+}
+
+.search__input::placeholder {
+  color: var(--color-light-gray);
+}
